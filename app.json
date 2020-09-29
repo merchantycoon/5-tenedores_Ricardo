@@ -3,6 +3,7 @@
     "name": "5-tenedores",
     "slug": "5-tenedores",
     "version": "1.0.0",
+    "platforms": ["android", "ios", "web"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,14 +14,10 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "android": {}
   }
 }
